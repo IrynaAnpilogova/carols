@@ -1,38 +1,42 @@
 body {
     background-color: rgb(117, 127, 219);
-  }
+}
+
+p {
+    text-align: left;
+}
 
 h1 {
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Italic', sans-serif;
     font-size: 48px;
     color: #ffd700;
     text-align: center;
-  }
-  
-  h2 {
-    font-family: 'Amatic SC', cursive;
-    font-size: 24px;
-    color: #1e1e44;
-    text-align: center;
-  }
-  
-  h3 {
-    font-family: 'Cookie', cursive;
+}
+
+h2 {
+    font-family: 'Geneva', sans-serif;
     font-size: 24px;
     color: #0b0e0b;
     text-align: center;
-  }
-  
-  .snowflake {
+}
+
+h3 {
+    font-family: 'Geneva', sans-serif;
+    font-size: 24px;
+    color: #0b0e0b;
+    text-align: left;
+}
+
+.snowflake {
     position: absolute;
     width: 10px;
     height: 10px;
     background: linear-gradient(white, white);
     border-radius: 50%;
     filter: drop-shadow(0 0 10px white);
-  }
+}
 
-  button {
+button {
     background-color: #4caf50;
     color: white;
     font-size: 16px;
@@ -42,16 +46,16 @@ h1 {
     cursor: pointer;
     position: absolute;
     top: 20px;
-    right: 20px;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
+    /* right: 50vh; */
+    left: 70vw;
+}
 
-  iframe {
+button:hover {
+    background-color: #45a049;
+}
+
+iframe {
     display: block;
     margin: auto;
     width: 560px;
-  }
-
+}

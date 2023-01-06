@@ -12,7 +12,7 @@ body {
 
 .text {
     width: 100%;
-    text-align: left;
+    text-align: center;
     font-size: 2em;
 }
 
@@ -62,8 +62,9 @@ button {
     padding: 12px 20px;
     border: none;
     cursor: pointer;
-    position: absolute;
-    align-self: center;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 button:hover {

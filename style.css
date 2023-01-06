@@ -2,8 +2,26 @@ body {
     background-color: rgb(117, 127, 219);
 }
 
-p {
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Style the text */
+
+.text {
+    width: 100%;
     text-align: left;
+    font-size: 2em;
+}
+
+
+/* Style the image */
+
+.image {
+    width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -22,7 +40,7 @@ h2 {
 
 h3 {
     font-family: 'Geneva', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     color: #0b0e0b;
     text-align: left;
 }
@@ -45,9 +63,7 @@ button {
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 20px;
-    /* right: 50vh; */
-    left: 70vw;
+    align-self: center;
 }
 
 button:hover {
